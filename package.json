@@ -1,0 +1,24 @@
+{
+  "name": "Invoitix.ApplicatonProcess.Application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "country-list": "^2.2.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6",
+    "request": "^2.88.2",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
